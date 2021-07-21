@@ -1,0 +1,33 @@
+{
+  "name": "utils-javascript",
+  "version": "1.0.0",
+  "description": "Exporter javascript commom functions.",
+  "main": "lib/index.js",
+  "types": "index.d.ts",
+  "files": [
+    "lib /**/*"
+  ],
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "lint": "tslint -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbfreitas/utils-javascript.git"
+  },
+  "author": "Tarcísio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tbfreitas/utils-javascript/issues"
+  },
+  "homepage": "https://github.com/tbfreitas/utils-javascript#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  }
+}
